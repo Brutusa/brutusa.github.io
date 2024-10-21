@@ -134,7 +134,7 @@ footer {
   }
 }
 
-.post {
+.post, .achievement {
   width: 100%;
   max-width: 100%;
   margin-bottom: 1.5rem;
@@ -151,7 +151,7 @@ footer {
     box-shadow: 0 15px 45px -10px rgba(10, 16, 34, .2);
   }
 
-  .post-thumbnail {
+  .post-thumbnail, .achievement-thumbnail {
     width: 30%;
     max-width: 100%;
     min-height: 11rem;
@@ -159,14 +159,14 @@ footer {
     background-position: 50% 50%;
   }
 
-  .post-content {
+  .post-content, .achievement-content {
     padding: 1rem;
     width: 70%;
-    .post-date,
-    .post-words {
+    .post-date, .achievement-date,
+    .post-words, .achievement-words {
       font-size: 12px;
     }
-    .post-title {
+    .post-title, .achievement-title {
       margin: 0 0 10px;
       font-size: 30px;
       font-weight: 400;
@@ -182,17 +182,17 @@ footer {
   }
 }
 
-a.older-posts, a.newer-posts {
+a.older-posts, a.newer-posts, a.older-achievements, a.newer-achievements {
   font-size: 18px;
   display: inline-block;
   color: $body-color;
   transition: transform .2s;
 }
 
-a.older-posts:hover {
+a.older-posts:hover, a.older-achievements:hover {
   transform: translateX(5px);
 }
 
-a.newer-posts:hover {
+a.newer-posts:hover, a.newer-achievements:hover {
   transform: translateX(-5px);
 }
