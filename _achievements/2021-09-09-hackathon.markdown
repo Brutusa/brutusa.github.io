@@ -1,9 +1,9 @@
 ---
-layout: post
-title: Destiny 2 Python Web App
-date: 2024-10-16 00:00:00 +0300
-description: A Destiny 2 Web App that is still in early development (optional)
-img: destiny2.jpg # Add image post (optional)
+layout: achievement
+title: Hackathon sample
+date: 2021-09-09 00:00:00 +0300
+description: Won hackathon
+img: destiny2.jpg # Add image achievement (optional)
 tags: [Destiny2, web app, python, flask, aiobungie] # add tag
 ---
 
