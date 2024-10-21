@@ -8,3 +8,5 @@ tags: [Spring, Java, API] # add tag
 ---
 
 Demo designed to showcase the usage of custom endpoints and testing using postman. API designed with Java and Spring to simulate a fictional 'space grocery store'.
+
+view on [GitHub](https://github.com/Brutusa/spacestore-spring-API/tree/main)
