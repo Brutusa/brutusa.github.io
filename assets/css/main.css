@@ -888,9 +888,10 @@ table tfoot td {
   position: relative;
 }
 
-.post, .article-page {
+.post, .article-page, .achievement {
   background-color: #fff;
 }
+
 
 ::-moz-selection {
   background: rgba(38, 57, 89, 0.8);
@@ -1100,7 +1101,7 @@ footer .copyright {
   margin: 0;
 }
 
-.post {
+.post, .achievement {
   width: 100%;
   max-width: 100%;
   margin-bottom: 1.5rem;
@@ -1128,7 +1129,7 @@ footer .copyright {
           box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
 }
 
-.post:hover {
+.post:hover, .achievement:hover {
   -webkit-transform: translate(0px, -2px);
       -ms-transform: translate(0px, -2px);
           transform: translate(0px, -2px);
@@ -1136,7 +1137,7 @@ footer .copyright {
           box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
 }
 
-.post .post-thumbnail {
+.post .post-thumbnail, .achievement .achievement-thumbnail {
   width: 30%;
   max-width: 100%;
   min-height: 11rem;
@@ -1145,29 +1146,34 @@ footer .copyright {
   background-position: 50% 50%;
 }
 
-.post .post-content {
+.post .post-content, .achievement .achievement-content {
   padding: 1rem;
   width: 70%;
 }
 
 .post .post-content .post-date,
-.post .post-content .post-words {
+.post .post-content .post-words, 
+.achievement .achievement-content .achievement-date,
+.achievement .achievement-content .achievement-date  {
   font-size: 12px;
 }
 
-.post .post-content .post-title {
+.post .post-content .post-title, 
+.achievement .achievement-content .achievement-title {
   margin: 0 0 10px;
   font-size: 30px;
   font-weight: 400;
 }
 
-.post .post-content .post-title a {
+.post .post-content .post-title a, 
+.achievement .achievement-content .achievement-title a{
   font-family: 'PT Serif', serif;
   text-decoration: none;
   color: #263959;
 }
 
-.post .post-content p {
+.post .post-content p, 
+.achievement .achievement-content p {
   margin-top: 0;
 }
 
@@ -1365,7 +1371,7 @@ a.newer-posts:hover {
 /* - - - - - - - - - - Media Styles - - - - - - - - - - */
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  .post {
+  .post, .achievement {
     width: 48%;
     max-width: 100%;
     margin: 0 0.9% 1.5%;
@@ -1375,16 +1381,20 @@ a.newer-posts:hover {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .post .post-thumbnail {
+  .post .post-thumbnail, 
+  .achievement .achievement-thumbnail {
     width: 100%;
   }
-  .post .post-content {
+  .post .post-content, 
+  .achievement .achievement-content{
     width: 100%;
   }
-  .post .post-content .post-title {
+  .post .post-content .post-title, 
+  .achievement .achievement-content .achievement-title{
     margin: 0 0 5px;
   }
-  .post .post-content .post-title a {
+  .post .post-content .post-title a, 
+  .achievement .achievement-content .achievement-title a {
     font-size: 21px;
   }
 }
@@ -1456,7 +1466,7 @@ a.newer-posts:hover {
   .content-box {
     padding: 10px;
   }
-  .post {
+  .post, .achievement {
     width: 98%;
     max-width: 100%;
     margin: 2%;
@@ -1466,16 +1476,20 @@ a.newer-posts:hover {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .post .post-thumbnail {
+  .post .post-thumbnail, 
+  .achievment .achievement-thumbnail {
     width: 100%;
   }
-  .post .post-content {
+  .post .post-content,
+   .achievement .achievement-content {
     width: 100%;
   }
-  .post .post-content .post-title {
+  .post .post-content .post-title, 
+  .achievement .achievement-content .achievement-title{
     margin: 0 0 5px;
   }
-  .post .post-content .post-title a {
+  .post .post-content .post-title a, 
+  .achievement .achievement-content .achievement-title a {
     font-size: 21px;
   }
 }
