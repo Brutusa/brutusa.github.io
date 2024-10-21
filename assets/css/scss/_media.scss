@@ -1,18 +1,18 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-  .post {
+  .post, .achievement {
     width: 48%;
     max-width: 100%;
     margin: 0 0.9% 1.5%;
     flex-direction: column;
 
-    .post-thumbnail {
+    .post-thumbnail, .achievement-thumbnail {
       width: 100%;
     }
 
-    .post-content {
+    .post-content, .achievement-content {
       width: 100%;
-      .post-title {
+      .post-title, .achievement-title {
         margin: 0 0 5px;
         a {
           font-size: 21px;
@@ -70,19 +70,19 @@
   .content-box {
     padding: 10px;
   }
-  .post {
+  .post, .achievement {
     width: 98%;
     max-width: 100%;
     margin: 2%;
     flex-direction: column;
 
-    .post-thumbnail {
+    .post-thumbnail, .achievement-thumbnail {
       width: 100%;
     }
 
-    .post-content {
+    .post-content, .achievement-content {
       width: 100%;
-      .post-title {
+      .post-title, .achievement-title {
         margin: 0 0 5px;
         a {
           font-size: 21px;

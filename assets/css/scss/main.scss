@@ -113,7 +113,7 @@ table tfoot td {
   position: relative;
 }
 
-.post, .article-page {
+.post, .article-page, .achievement .article-page {
   background-color: #fff;
 }
 
@@ -141,6 +141,9 @@ table tfoot td {
 
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
 @import 'parts/post-page';
+
+/* - - - - - - - - - - Achievement Page Styles  - - - - - - */
+@import 'parts/achievement-page';
 
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
 @import 'parts/tag';
