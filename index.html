@@ -18,7 +18,7 @@ layout: main
 {% endfor %}
 
 <h1>Achievements</h1>
-{% for achievement in paginator.posts %}
+{% for achievement in paginator.achievements %}
 <article class="achievement">
   {% if achievement.img %}
     <a class="achievement-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : achievement.img}})" href="{{achievement.url | prepend: site.baseurl}}"></a>
