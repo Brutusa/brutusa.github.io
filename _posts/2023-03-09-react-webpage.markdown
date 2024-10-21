@@ -3,7 +3,7 @@ layout: post
 title: React Webpage with Docker Container
 date: 2023-03-08 13:32:20 +0300
 description: app designed by Andujar Brutus to showcase React integration with Docker
-img: i-rest.jpg # Add image post (optional)
+img: reactwebpage.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [React, Docker]
 ---
