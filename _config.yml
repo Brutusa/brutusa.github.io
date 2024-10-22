@@ -24,14 +24,7 @@ social-resume: https://drive.google.com/file/d/1W7RsGTIF675n4ngIjTynqKBDed_gjiXb
 discus-identifier:  # add your discus identifier
 
 # Tracker
-analytics: <script async src="https://www.googletagmanager.com/gtag/js?id=G-W10V6F865Z"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-W10V6F865Z');
-</script># Google Analytics
+analytics: G-W10V6F865Z
 
 # Build Settings
 markdown: kramdown
