@@ -7,6 +7,7 @@ img: reactwebpage.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [React, Docker]
 ---
+Accomplished proper Docker containerization on custom web app designed with react.js.
 
 # React + Docker Integration
 **app designed by Andujar Brutus to showcase React integration with Docker**
