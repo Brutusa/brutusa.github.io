@@ -7,7 +7,7 @@ img: javaspring.png # Add image post (optional)
 tags: [Spring, Java, API] # add tag
 ---
 
-Achieved secure API design using Java and Spring to properly showcase the usage of custom endpoints with testing using Postman on a fictional 'space grocery store' database.
+Designed a secure API with Java and Spring, implementing custom endpoints and testing with Postman on a fictional space grocery store database.
 
 ![spacestore1]({{site.baseurl}}/assets/img/spacestore1.png)
 
