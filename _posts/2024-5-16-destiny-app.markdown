@@ -7,7 +7,7 @@ img: destiny2.jpg # Add image post (optional)
 tags: [Destiny2, web app, python, flask, aiobungie] # add tag
 ---
 
-Integrated Bungie’s Destiny 2 API with Flask and PyTorch to build a web app that returns JSON responses.
+Integrated Bungie’s Destiny 2 API with Flask, aiobungie, and PyTorch to build a web app that returns JSON responses.
 
 ## postman response from bungie
 ![bungieapp1]({{site.baseurl}}/assets/img/bungieapp1.png)
