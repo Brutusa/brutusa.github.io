@@ -1,0 +1,24 @@
+---
+layout: post
+title: Augmented Reality + Machine Learning
+date: 2026-09-01 00:00:00 +0300
+description: Augmented reality and machine learning demo
+img: destiny2.png # Add image post (optional)
+tags: [AR, web app, python, ML, visual] # add tag
+---
+
+view on [GitHub](https://github.com/Brutusa/augmented-hand-tracking)
+
+A browser-based Augmented Reality app that uses real-time hand tracking to control 3D objects — no app install, no native dependencies. Everything runs client-side in the browser using WebAssembly (ML inference) and WebGL (3D rendering).
+
+
+## Screenshot
+![ar1]({{site.baseurl}}/assets/img/ar1.png)
+
+## Demo
+<video width="100%" controls>
+  <source src="{{ site.baseurl }}/assets/videos/ar1m.mov" type="video/mov">
+  Your browser does not support the video tag.
+</video>
+
+
