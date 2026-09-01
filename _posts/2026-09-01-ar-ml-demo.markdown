@@ -11,7 +11,7 @@ A browser-based Augmented Reality app that uses real-time hand tracking to contr
 
 
 ## Demo
-![ar2g]({{site.baseurl}}/assets/img/ar2g.gif)
+![ar2g]({{site.baseurl}}/assets/video/ar2g.gif)
 
 
 view on [GitHub](https://github.com/Brutusa/augmented-hand-tracking)
