@@ -3,7 +3,7 @@ layout: post
 title: Augmented Reality + Machine Learning
 date: 2026-09-01 00:00:00 +0300
 description: Augmented reality and machine learning demo
-img: destiny2.png # Add image post (optional)
+img: ar2.png # Add image post (optional)
 tags: [AR, web app, python, ML, visual] # add tag
 ---
 
